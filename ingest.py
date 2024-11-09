@@ -4,7 +4,7 @@ from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter 
 from langchain_huggingface import HuggingFaceEmbeddings
 
-DATA_PATH = 'data/'
+DATA_PATH = '/kaggle/working/Kaggle-medbot/data/'
 DB_FAISS_PATH = 'vectorstore/db_faiss'
 
 # Create vector database
