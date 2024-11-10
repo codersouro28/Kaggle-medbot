@@ -5,7 +5,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 
 DATA_PATH = '/kaggle/working/Kaggle-medbot/data/'
-DB_FAISS_PATH = 'vectorstore/db_faiss'
+DB_FAISS_PATH = '/kaggle/working/vectorstore/db_faiss'
 
 # Create vector database
 def create_vector_db():
